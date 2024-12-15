@@ -1,0 +1,11 @@
+.header {
+    height: 100px;
+    background-color: rgba(23, 37, 50, 1);
+    text-align: center;
+}
+
+.text{
+    align-items: center;
+    font-size: 75px;
+    color: rgba(232, 248, 219, 1);
+}

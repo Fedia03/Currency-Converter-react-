@@ -1,0 +1,128 @@
+.wrapper{
+    width: 420px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255, .2);
+    backdrop-filter:blur(6px);
+    box-shadow: 0 0 10px rgb(0, 0, 0, .2);
+    color: white;
+    border-radius: 15px;
+    padding: 20px 30px 20px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.text-wrapper {
+    text-align: center;
+}
+
+.welcome-text {
+    font-size: 40px;
+}
+
+.text-above-input {
+    font-size: 25px;
+}
+
+.amount-text{
+    margin-top: 20px;
+}
+.input-box {
+    padding: 10px 0 0 0;
+}
+
+.input-box input{
+    font-family: "Jura", serif;
+    width: 85%;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(23, 37, 50, 1);
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 20px 45px 20px 20px;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;   
+}
+
+.selection-from-to {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px 0 0 0;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+select {
+    font-family: "Jura", serif;
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.output-info{
+    padding: 5px;
+    font-size: 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0 0 0;
+}
+
+.button-swap{
+    background-color: transparent;
+    border: none;
+    background-image: url(/public/swap.png);
+    width: 30px;
+    height: 30px;
+    margin-top: 35px;
+}
+.exchange-button{
+    font-family: "Jura", serif;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: white;
+    color: rgba(23, 37, 50, 1);
+    line-height: 1.5;
+}
+
+.exchange-button:active {
+    transform: scale(0.95);
+}
+
+::-webkit-scrollbar {
+    border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(23, 37, 50, 1);
+    border-radius: 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
